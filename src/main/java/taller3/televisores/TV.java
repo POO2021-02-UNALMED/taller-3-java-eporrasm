@@ -29,7 +29,9 @@ public class TV {
 		this.volumen = volumen;
 	}
 	public void setCanal(int canal) {
-		this.canal = canal;
+		if (canal>=1 && canal <=120) {
+			this.canal = canal;
+		}
 	}
 	public Marca getMarca() {
 		return marca;
