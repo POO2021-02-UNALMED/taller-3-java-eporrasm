@@ -49,7 +49,7 @@ public class TV {
 	public int getNumTV() {
 		return numTV;
 	}
-	public void setNumTV() {
+	public void setNumTV(int numTV) {
 		;
 	}
 	public void turnOn() {
