@@ -46,10 +46,10 @@ public class TV {
 	public int getCanal() {
 		return canal;
 	}
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
-	public void setNumTV(int numTV) {
+	public static void setNumTV(int numTV) {
 		;
 	}
 	public void turnOn() {
